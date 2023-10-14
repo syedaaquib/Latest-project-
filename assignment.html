@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        section {
+            display: grid;
+            grid-template-columns: 2fr 10fr;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        li:hover {
+            background-color: rgb(10, 10, 24);
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: rgb(26, 26, 13);
+            padding: 30px 10px;
+        }
+
+        nav ul {
+            margin: auto;
+            cursor: pointer;
+        }
+
+        li {
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 180px;
+
+
+        }
+
+        main img {
+            margin-right: 15px;
+        }
+
+        main {
+            margin-left: 25px;
+        }
+
+        .graph {
+            display: grid;
+            grid-template-columns: 8fr 3fr;
+            margin-top: 25px;
+
+        }
+
+        .images {
+            width: 100%;
+        }
+
+        #profile:hover {
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body class="container-fluid text-white bg-light">
+    <section>
+        <nav>
+            <h3>Dashboard</h3>
+            <ul>
+                <li class="bi bi-speedometer">Dashboard &nbsp;<span class="bi bi-chevron-right"></span></li>
+                <li class="bi bi-basket2">Product &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span
+                        class="bi bi-chevron-right"></span></li>
+                <li class="bi bi-person">Customers &nbsp;<span class="bi bi-chevron-right"></span></li>
+                <li class="bi bi-currency-dollar">Income &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span
+                        class="bi bi-chevron-right"></span></li>
+                <li class="bi bi-gift">promote &nbsp;&nbsp;&nbsp;&nbsp;<span class="bi bi-chevron-right"></span></li>
+                <li class="bi bi-question">Help &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                        class="bi bi-chevron-right"></span></li>
+
+            </ul>
+            <div><img id="profile" class="m-4" src="public/images/select.PNG" alt=""></div>
+        </nav>
+        <main class="mt-4 ">
+            <div class="d-flex mb-3">
+                <div class="text-dark mb-1 fw-bold">Hello Shahrukh
+                    <span class="bi bi-radioactive"></span>
+                </div>
+                <div style="position: relative; margin-left: 330px;">
+                    <span class="bi bi-search text-dark m-2" style="position: absolute;"></span>
+                    <input class="p-1" type="text">
+                </div>
+            </div>
+            <div class="images">
+                <img src="../public/images/img1as.PNG" alt="">
+                <img src="../public/images/img2as.PNG" alt="">
+                <img src="../public/images/img3as.PNG" alt="">
+                <img src="../public/images/img4as.PNG" alt="">
+            </div>
+
+            <div class="graph">
+                <img title="Monthly Overview" src="public/images/grphas.PNG" alt="">
+                <img title="Customer's Response" src="public/images/grph2as.PNG" alt="">
+            </div>
+
+            <div class="one">
+                <img title="Products Available For Selling" class="mt-4" src="public/images/down.PNG" alt="" width="98%" height="130px">
+            </div>
+
+        </main>
+    </section>
+
+</body>
+
+</html>
